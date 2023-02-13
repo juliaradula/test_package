@@ -13,3 +13,4 @@ Description: More about what it does (maybe more than one line)
     BiocViews - These are unique to Bioconductor and they describe each package using a controlled vocabulary. You can see an example of how they are used and also browse existing ones by clicking here. While you are browsing, be sure to check the box that says ‘Developers: check this box to toggle the visibility of childless biocViews.’ That way you will be able to see the full ontology. You can also make use of the recommendBiocViews(pkgdir) function from the biocViews package to suggest potential views for your package.
 License: Artistic-2.0
 Encoding: UTF-8
+RoxygenNote: 7.2.3
