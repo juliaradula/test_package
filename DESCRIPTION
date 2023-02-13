@@ -6,29 +6,10 @@ Author: Julia Raspante Martins <biojuliarm@gmail.com>
 Maintainer: Julia Raspante Martins <biojuliarm@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-    Depends - This field is for listing hard dependencies. If you have another 
-    package and your package is really meant to be used along with that package 
-    then you might want to list it here. Doing so will basically always load 
-    that other package before loading yours thus guaranteeing that all the 
-    contents exported by both packages are available to end users.
-    Imports - This is what you should use when you want to access the contents 
-    of another package from within the code of your own package. If that is your 
-    intention, then you should list those packages here. This field is normally 
-    used in conjunction with import statements inside the NAMESPACE file that 
-    will spell out which functions and objects need to be available for your 
-    package.
-    Suggests - This is for dependencies that are not needed in order to load and 
-    use your package . If you have a function somewhere that is rarely used and 
-    that needs some specific package resource then Suggests is a good option. 
-    Suggests is normally used along with require() to ensure that the package in 
-    question is loaded when and where it is needed.
-    BiocViews - These are unique to Bioconductor and they describe each package 
-    using a controlled vocabulary. You can see an example of how they are used 
-    and also browse existing ones by clicking here. While you are browsing, be 
-    sure to check the box that says ‘Developers: check this box to toggle the 
-    visibility of childless biocViews.’ That way you will be able to see the 
-    full ontology. You can also make use of the recommendBiocViews(pkgdir) 
-    function from the biocViews package to suggest potential views for your 
-    package.
+    The description above belongs to https://rpubs.com/Saskia/554320.
+    Depends - This field is for listing hard dependencies. If you have another package and your package is really meant to be used along with that package then you might want to list it here. Doing so will basically always load that other package before loading yours thus guaranteeing that all the contents exported by both packages are available to end users.
+    Imports - This is what you should use when you want to access the contents of another package from within the code of your own package. If that is your intention, then you should list those packages here. This field is normally used in conjunction with import statements inside the NAMESPACE file that will spell out which functions and objects need to be available for your package.
+    Suggests - This is for dependencies that are not needed in order to load and use your package . If you have a function somewhere that is rarely used and that needs some specific package resource then Suggests is a good option. Suggests is normally used along with require() to ensure that the package in question is loaded when and where it is needed.
+    BiocViews - These are unique to Bioconductor and they describe each package using a controlled vocabulary. You can see an example of how they are used and also browse existing ones by clicking here. While you are browsing, be sure to check the box that says ‘Developers: check this box to toggle the visibility of childless biocViews.’ That way you will be able to see the full ontology. You can also make use of the recommendBiocViews(pkgdir) function from the biocViews package to suggest potential views for your package.
 License: Artistic-2.0
 Encoding: UTF-8
