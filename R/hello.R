@@ -16,15 +16,16 @@
 # library("roxygen2")
 # Put the cursor inside the function that you
 # want to document and then navigate to ‘Code’
-# and click ‘Insert Roxygen Skeleton’
+# and click ‘Insert Roxygen Skeleton
+
 
 #' Hello
 #'
-#' \code{hello} returns a greeting sentence incorporating a user-specified string.
+#' \code{hello} says hello to a person.
 #'
-#' @param your_name A string specifying the name of the person.
+#' @param your_name Enter string for a name of a person to say hello.
 #'
-#' @return A string with the name.
+#' @return A string saying hello.
 #' @export
 #'
 #' @examples
