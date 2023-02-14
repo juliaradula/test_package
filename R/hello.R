@@ -23,7 +23,7 @@
 #'
 #' \code{hello} says hello to a person.
 #'
-#' @param your_name Enter string for a name of a person to say hello.
+#' @param your_name Input string for a name of a person to say hello.
 #'
 #' @return A string saying hello.
 #' @export
@@ -32,4 +32,22 @@
 #' hello("Julia")
 hello <- function(your_name) {
     paste0("Hello, ", your_name)
+}
+
+# lets try another function
+
+#' Sum plus 10
+#'
+#' \code{sum_plus_10} sums 10 to a given number.
+#'
+#' @param num Input number to be summed.
+#'
+#' @return An integer number.
+#' @export
+#'
+#' @examples
+#' sum_plus_10(3)
+sum_plus_10 <- function(num){
+    plus_10 <- num + 10
+    print(plus_10)
 }

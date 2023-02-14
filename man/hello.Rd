@@ -7,7 +7,7 @@
 hello(your_name)
 }
 \arguments{
-\item{your_name}{Enter string for a name of a person to say hello.}
+\item{your_name}{Input string for a name of a person to say hello.}
 }
 \value{
 A string saying hello.
