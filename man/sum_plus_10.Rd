@@ -12,7 +12,7 @@ sum_plus_10(num1, num2)
 \item{num2}{Input integer number.}
 }
 \value{
-An integer number.
+An integer number of the sum of the two input numbers plus 10.
 }
 \description{
 \code{sum_plus_10} sums 10 to a given number.

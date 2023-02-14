@@ -27,6 +27,6 @@ testpackage:
 library(testpackage)
 hello("Julia")
 #> [1] "Hello, Julia"
-sum_plus_10(3)
-#> [1] 13
+sum_plus_10(3, 5)
+#> [1] 18
 ```

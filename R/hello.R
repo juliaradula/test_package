@@ -27,7 +27,7 @@ hello <- function(your_name) {
 #' @param num1 Input integer number.
 #' @param num2 Input integer number.
 #'
-#' @return An integer number.
+#' @return An integer number of the sum of the two input numbers plus 10.
 #' @export
 #'
 #' @examples

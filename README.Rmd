@@ -36,5 +36,5 @@ This is a basic example which shows you how to use the functions of testpackage:
 ```{r example}
 library(testpackage)
 hello("Julia")
-sum_plus_10(3)
+sum_plus_10(3, 5)
 ```
