@@ -1,23 +1,7 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
-
 # library("roxygen2")
 # Put the cursor inside the function that you
 # want to document and then navigate to ‘Code’
 # and click ‘Insert Roxygen Skeleton
-
 
 #' Hello
 #'
@@ -40,14 +24,15 @@ hello <- function(your_name) {
 #'
 #' \code{sum_plus_10} sums 10 to a given number.
 #'
-#' @param num Input number to be summed.
+#' @param num1 Input integer number.
+#' @param num2 Input integer number.
 #'
 #' @return An integer number.
 #' @export
 #'
 #' @examples
 #' sum_plus_10(3)
-sum_plus_10 <- function(num){
-    plus_10 <- num + 10
+sum_plus_10 <- function(num1, num2){
+    plus_10 <- num1 + num2 + 10
     print(plus_10)
 }

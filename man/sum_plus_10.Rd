@@ -4,10 +4,12 @@
 \alias{sum_plus_10}
 \title{Sum plus 10}
 \usage{
-sum_plus_10(num)
+sum_plus_10(num1, num2)
 }
 \arguments{
-\item{num}{Input number to be summed.}
+\item{num1}{Input integer number.}
+
+\item{num2}{Input integer number.}
 }
 \value{
 An integer number.
