@@ -18,5 +18,5 @@ An integer number of the sum of the two input numbers plus 10.
 \code{sum_plus_10} sums 10 to a given number.
 }
 \examples{
-sum_plus_10(3)
+sum_plus_10(3, 5)
 }

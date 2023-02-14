@@ -31,7 +31,7 @@ hello <- function(your_name) {
 #' @export
 #'
 #' @examples
-#' sum_plus_10(3)
+#' sum_plus_10(3, 5)
 sum_plus_10 <- function(num1, num2){
     plus_10 <- num1 + num2 + 10
     print(plus_10)
