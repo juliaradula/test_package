@@ -1,4 +1,4 @@
-Package: testepackage
+Package: testpackage
 Type: Package
 Title: How to create a bioconductor package
 Version: 0.1.0
